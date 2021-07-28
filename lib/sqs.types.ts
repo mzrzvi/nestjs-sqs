@@ -1,6 +1,6 @@
 import type { ConsumerOptions } from 'sqs-consumer';
 import type { Producer } from 'sqs-producer';
-import type { SQS } from 'aws-sdk';
+import type SQS from 'aws-sdk/clients/sqs';
 import type { ModuleMetadata, Type } from '@nestjs/common';
 
 export type ProducerOptions = Parameters<typeof Producer.create>[0];
