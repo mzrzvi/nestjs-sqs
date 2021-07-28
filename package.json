@@ -26,6 +26,9 @@
     "aws-sdk": "^2.728.0",
     "@nestjs-plus/discovery": "^2.0.2"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "@nestjs/common": "^7.4.2",
     "@nestjs/core": "^7.4.2",
