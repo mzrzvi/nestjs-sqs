@@ -1,6 +1,6 @@
 {
   "name": "@mzrzvi/nestjs-sqs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nest.js utilities for SQS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
