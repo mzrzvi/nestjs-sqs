@@ -1,6 +1,6 @@
 {
   "name": "@mzrzvi/nestjs-sqs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Nest.js utilities for SQS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mzrzvi/nestjs-sqs.git"
+    "url": "https://github.com/mzrzvi/nestjs-sqs.git"
   },
   "keywords": [],
   "author": "Moiz Rizvi <moizrizvi@gmail.com>",

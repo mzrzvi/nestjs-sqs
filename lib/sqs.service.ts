@@ -4,8 +4,8 @@ import { Producer } from 'sqs-producer';
 import { Message, QueueName, SqsConsumerEventHandlerMeta, SqsMessageHandlerMeta, SqsOptions } from './sqs.types';
 import { DiscoveryService } from '@nestjs-plus/discovery';
 import { SQS_CONSUMER_EVENT_HANDLER, SQS_CONSUMER_METHOD, SQS_OPTIONS } from './sqs.constants';
-import SQS from 'aws-sdk/clients/sqs';
 import type { QueueAttributeName } from 'aws-sdk/clients/sqs';
+import SQS = require('aws-sdk/clients/sqs');
 
 @Injectable()
 export class SqsService implements OnModuleInit, OnModuleDestroy {
