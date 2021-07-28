@@ -1,7 +1,7 @@
 {
-  "name": "@ssut/nestjs-sqs",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@mzrzvi/nestjs-sqs",
+  "version": "1.0.1",
+  "description": "Nest.js utilities for SQS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -11,14 +11,14 @@
     "lint": "npx eslint \"lib/**/*.ts\" --fix"
   },
   "bugs": {
-    "url": "https://github.com/ssut/nestjs-sqs/issues"
+    "url": "https://github.com/mzrzvi/nestjs-sqs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ssut/nestjs-sqs.git"
+    "url": "git+https://github.com/mzrzvi/nestjs-sqs.git"
   },
   "keywords": [],
-  "author": "Suhun Han <ssut@ssut.me>",
+  "author": "Moiz Rizvi <moizrizvi@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "sqs-consumer": "^5.4.0",
